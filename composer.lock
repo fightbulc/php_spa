@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "0d79219648c57412958f90bb71f7c32f",
+    "packages": [
+        {
+            "name": "simplon/frontend",
+            "version": "dev-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fightbulc/simplon_frontend.git",
+                "reference": "386437f3540a2465125d55eea5bff6c7313386b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fightbulc/simplon_frontend/zipball/386437f3540a2465125d55eea5bff6c7313386b9",
+                "reference": "386437f3540a2465125d55eea5bff6c7313386b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Simplon\\Frontend\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tino Ehrich",
+                    "email": "opensource@efides.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Bootstrap Frontend Library",
+            "homepage": "https://github.com/fightbulc/simplon_frontend",
+            "keywords": [
+                "controller",
+                "fast",
+                "frontend",
+                "lightweight",
+                "mustache",
+                "router",
+                "templates"
+            ],
+            "time": "2014-09-14 12:54:31"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "simplon/frontend": 20
+    },
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}

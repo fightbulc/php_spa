@@ -1,0 +1,13 @@
+{
+    "minimum-stability": "dev",
+
+    "require": {
+        "simplon/frontend": "dev-dev"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App/"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+phpSpaLoader('http://spa.play.dev', '#spa-container');
